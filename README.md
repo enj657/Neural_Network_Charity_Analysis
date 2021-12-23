@@ -21,10 +21,17 @@ The purpose of this analysis is to design a binary classifier that is capable of
 ### Compiling, Training, and Evaluating the Model
 
 * For my neural network model I used two hidden layers, one with 24 nodes and one with 12 nodes. I used the `ReLU` activation function for the two hidden layers, and `Sigmoid` for the output layers because the output is a binary classification.
+    * ![image info](./Resources/model1.png)
 
 * I was not able to achieve the target model performance of 75%. This model does not accurately predict the outcome of charity donations.
 
-* To improve the performance of the model, I tried three changes. First, I added more nodes to the two hidden layers. Instead of 24 and 12 I used 80 and 40. The model was still under 75%. Next, I tried to add more hidden layers, and I increased from two to  three, with 80, 40 and 20 nodes respectively. This change didn't increase the model's performance to be greater than 75%. The last thing I tried was using a different activation function. I used `ReLU`, `Tanh`, and `Sigmoid`, instead of only `Relu` for the hidden layers. This, once again, did not increase the model's performance to be over 75%.
+* To improve the performance of the model, I tried three changes. 
+    * First, I added more nodes to the two hidden layers. Instead of 24 and 12 I used 80 and 40. The model was still under 75%. 
+        * ![image info](./Resources/model2.png)
+    * Next, I tried to add more hidden layers, and I increased from two to  three, with 80, 40 and 20 nodes respectively. This change didn't increase the model's performance to be greater than 75%. 
+        * ![image info](./Resources/model3.png)
+    * The last thing I tried was using a different activation function. I used `ReLU`, `Tanh`, and `Sigmoid`, instead of only `Relu` for the hidden layers. This, once again, did not increase the model's performance to be over 75%.
+        * ![image info](./Resources/model4.png)
 
 ## Summary
 
